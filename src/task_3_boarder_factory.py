@@ -3,6 +3,7 @@ from task_2_passenger import Pilot, Crew, Passenger
 
 class BoarderFactory:
 
+    @staticmethod
     def create_object(boarder_type, *args, **kwargs):
         if boarder_type == 'Pilot':
             object = Pilot(*args, **kwargs)
