@@ -17,7 +17,7 @@ class FirstClass(FlightClass):
 
     @staticmethod
     def perks():
-        return f'{__class__.__name__}:\n\tPerks:\n\t\tExtra Leg Room\n\t\tComfortable Seats\n\t\tFree Beverages'
+        return f'First class:\n\tPerks:\n\t\tExtra Leg Room\n\t\tComfortable Seats\n\t\tFree Beverages'
     
 
 
@@ -29,7 +29,7 @@ class BusinessClass(FlightClass):
 
     @staticmethod
     def perks():
-        return f'{__class__.__name__}:\n\tPerks:\n\t\tExtra Leg Room\n\t\tComfortable Seats'
+        return f'Business class:\n\tPerks:\n\t\tExtra Leg Room\n\t\tComfortable Seats'
 
 
 @singleton
@@ -40,4 +40,4 @@ class EconomyClass(FlightClass):
 
     @staticmethod
     def perks():
-        return f'{__class__.__name__}:\n\tPerks:\n\t\tNo perks :D'
+        return f'Economy class:\n\tPerks:\n\t\tNo perks :D'
